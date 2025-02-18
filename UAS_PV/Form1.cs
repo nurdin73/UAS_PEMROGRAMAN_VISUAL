@@ -18,12 +18,6 @@ namespace UAS_PV
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            string filePath = @"C:\Users\kesde\OneDrive\Dokumen\test.txt"; // Ganti dengan path file Anda
-            ReadFile(filePath);
-        }
-
         private void ReadFile(string path)
         {
             if (File.Exists(path)) // Percabangan
@@ -45,26 +39,21 @@ namespace UAS_PV
             listBox1.Items.Add(line);
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click_1(object sender, EventArgs e)
         {
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                openFileDialog.Filter = "Text Files (*.txt)|*.txt"; // Hanya menampilkan file .txt
+                openFileDialog.Filter = "Text Files (*.txt)|*.txt";
                 openFileDialog.Title = "Pilih File Teks";
 
-                if (openFileDialog.ShowDialog() == DialogResult.OK) // Jika pengguna memilih file
+                if (openFileDialog.ShowDialog() == DialogResult.OK) 
                 {
                     string filePath = openFileDialog.FileName;
 
                     // Validasi ekstensi file
                     if (Path.GetExtension(filePath).ToLower() == ".txt")
                     {
-                        ReadFile(filePath); // Baca file jika valid
+                        ReadFile(filePath); 
                     }
                     else
                     {
