@@ -1,0 +1,10 @@
+C:\Users\kesde\source\repos\UAS_PV\UAS_PV\bin\Debug\UAS_PV.exe.config
+C:\Users\kesde\source\repos\UAS_PV\UAS_PV\bin\Debug\UAS_PV.exe
+C:\Users\kesde\source\repos\UAS_PV\UAS_PV\bin\Debug\UAS_PV.pdb
+C:\Users\kesde\source\repos\UAS_PV\UAS_PV\obj\Debug\UAS_PV.csproj.AssemblyReference.cache
+C:\Users\kesde\source\repos\UAS_PV\UAS_PV\obj\Debug\UAS_PV.Form1.resources
+C:\Users\kesde\source\repos\UAS_PV\UAS_PV\obj\Debug\UAS_PV.Properties.Resources.resources
+C:\Users\kesde\source\repos\UAS_PV\UAS_PV\obj\Debug\UAS_PV.csproj.GenerateResource.cache
+C:\Users\kesde\source\repos\UAS_PV\UAS_PV\obj\Debug\UAS_PV.csproj.CoreCompileInputs.cache
+C:\Users\kesde\source\repos\UAS_PV\UAS_PV\obj\Debug\UAS_PV.exe
+C:\Users\kesde\source\repos\UAS_PV\UAS_PV\obj\Debug\UAS_PV.pdb
